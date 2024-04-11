@@ -1,8 +1,0 @@
-/**
- * Import the ClassRoom class 
- */
-import ClassRoom from './0-classroom';
-
-export default function initializeRooms() {
-  return [19, 20, 34].map((num) => new ClassRoom(num));
-}
