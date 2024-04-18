@@ -1,7 +1,4 @@
-#!/usr/bin/env ts-node-script
-/**
- * Task 1
- */
+// Task 2 directory
 export interface Teacher {
   readonly firstName: string;
   readonly lastName: string;

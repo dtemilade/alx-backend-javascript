@@ -1,6 +1,4 @@
-/**
- * Task 0
- */
+// Task 0 Directory
 interface Student {
   firstName: string;
   lastName: string;

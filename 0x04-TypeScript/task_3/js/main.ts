@@ -1,9 +1,4 @@
-/**
- * Task 3
- */
-/// <reference path="./crud.d.ts" />
-import {RowElement, RowID} from './interface';
-import * as CRUD from './crud';
+// Task 3 directory
 
 const row: RowElement = {
     firstName: 'John',

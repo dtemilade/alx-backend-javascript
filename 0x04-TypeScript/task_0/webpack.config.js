@@ -3,6 +3,12 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const ForkTsCheckerWebpackPlugin = require('fork-ts-checker-webpack-plugin');
 
+
+optimization: {
+  minimize: false
+};
+mode: 'development';
+
 module.exports = {
   entry: './js/main.ts',
   devtool: 'inline-source-map',

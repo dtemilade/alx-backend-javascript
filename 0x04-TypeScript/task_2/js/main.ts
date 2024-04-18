@@ -1,6 +1,4 @@
-/**
- * Task 2
- */
+// Task 2 directory
 
 export interface DirectorInterface {
   workFromHome(): string;
